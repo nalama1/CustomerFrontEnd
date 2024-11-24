@@ -1,0 +1,17 @@
+﻿<title>Consulta de Cliente</title>
+
+
+<div class="container">
+    <h2>Consulta de Cliente</h2>
+    <input type="text" id="cedula" name="cedula" placeholder="Ingrese cédula"
+           maxlength="10"
+           pattern="^\d{1,10}$"
+           title="Ingresa solo números (0-9) con un máximo de 10 dígitos"
+           required>
+
+
+    <button onclick="consultarCliente()">Consultar</button>
+    <div id="resultado"></div>
+</div>
+
+
